@@ -20,6 +20,7 @@ Create a new voice channel:
 ```php
 <?php
 
+use RestCord\DiscordClient;
 use RestCord\Enums\ChannelType;
 
 $client = new DiscordClient([ 'token' => 'bot-token' ]);
